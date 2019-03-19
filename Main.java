@@ -80,7 +80,7 @@ teams[67] = new Team(16,"Fairleigh Dickinson",0.5,0.06,0.003,0,0,0);
 
     for (int i = 0; i<68; i++){
       double winProb = teams[i].seed * (teams[i].r32 + teams[i].r16 + teams[i].r8 + teams[i].r4 + teams[i].r2 + teams[i].r1)/100;
-      System.out.println("The expected value of " + teams[i].teamName + " is " + winProb);
+      System.out.println("The expected value of " + teams[i].teamName + ", a " + teams[i].seed + " seed is " + winProb);
     }
   }
 }
